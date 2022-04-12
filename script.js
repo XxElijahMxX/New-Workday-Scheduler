@@ -1,3 +1,3 @@
 // setting the date and time
-let date = new Date();
-console.log(date.toString());
+let date = moment().format("dddd, MMMM Do YYYY");
+$("#currentDay").append(date);
